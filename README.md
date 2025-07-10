@@ -1,2 +1,6 @@
-udemig ana sayfası oluşturulmuştur.
-Html ve Css kullanılmıştır.
+
+           <ul>
+                      <li>udemig ana sayfası oluşturulmuştur.</li>
+                      <li> Html ve Css kullanılmıştır.</li>
+           </ul>
+
