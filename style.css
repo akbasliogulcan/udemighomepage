@@ -107,6 +107,72 @@ body {
   border: 1px solid red;
 }
 
+/* Courses */
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.course h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.course p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.course-col {
+  background-color: #cfc1b0;
+  flex-basis: 32%;
+  /* Flex basis : borderların kapladığı alanı belirtir. */
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.course-col:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.course-col h3 {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+/* campus */
+
+.campus {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.campus-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 32px;
+  overflow: hidden;
+  /* resimlerde taşma olmaması için flex-basis'e 32 verdikten sınra bunu veriyoruz.
+   */
+}
+.campus-col img {
+  width: 100%;
+  display: block;
+}
+
 /* Responsive tasarım */
 @media (max-width: 700px) {
   .nav-links ul {
@@ -114,5 +180,15 @@ body {
   }
   .menu-icon {
     display: block !important;
+  }
+  .banner .text-box h1 {
+    font-size: 30px;
+  }
+  .banner .text-box p {
+    font-size: 12px;
+  }
+  .row {
+    flex-direction: column;
+    /* akış yönün aşağıya alır. */
   }
 }
