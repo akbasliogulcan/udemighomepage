@@ -1,13 +1,5 @@
 
-<h1>🎥 Preview</h1>
-<i class="fa-solid fa-star"></i>
-<img src="pic/bookstore.gif" width="800" />
 
-<h2>🔧 Technologies Used</h2>
- 
-<p>HTML – Structured the web pages
-CSS – Applied styling and design
-</p>
 
 
 <h1 align="center">🚀 Udemig Homepage Project</h1>
@@ -15,6 +7,9 @@ CSS – Applied styling and design
 <p align="center">
   <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="200" alt="Project GIF" />
 </p>
+
+<img src="pic/bookstore.gif" width="800" />
+
 
 <p align="center">
   <b>Responsive</b> | <b>Modern Design</b> | <b>HTML + CSS</b>
@@ -43,6 +38,5 @@ CSS – Applied styling and design
   <li>Responsive Design</li>
 </ul>
 
-<h2>📦 Kurulum</h2>
 
 
