@@ -6,4 +6,4 @@
  
 <p>HTML – Structured the web pages
 CSS – Applied styling and design
-JavaScript – Added dynamic features</p>
+</p>
