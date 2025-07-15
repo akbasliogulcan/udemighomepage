@@ -16,12 +16,12 @@ body {
 
 /* Banner */
 .banner {
+  position: relative;
   min-height: 100vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url("./pic/banner.png");
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 /* Header */
 .header {
@@ -165,14 +165,149 @@ body {
   border-radius: 10px;
   margin-bottom: 32px;
   overflow: hidden;
-  /* resimlerde taşma olmaması için flex-basis'e 32 verdikten sınra bunu veriyoruz.
+  /* resimlerde taşma olmaması için flex-basis'e 32 verdikten sınra bunu veriyoruz (hidden).
    */
+  position: relative;
 }
 .campus-col img {
   width: 100%;
   display: block;
 }
 
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.layer:hover {
+  background-color: rgba(100, 70, 70, 0.7);
+}
+
+.layer h3 {
+  width: 100%;
+  font-size: 26px;
+  position: absolute;
+  color: white;
+  bottom: 0;
+  transform: translate(-50%);
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  font-weight: 600;
+}
+
+.layer:hover h3 {
+  opacity: 1;
+  bottom: auto;
+  transition: all 0.9s;
+}
+
+/* Educations */
+.educations {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.education-col {
+  flex-basis: 32%;
+  margin-bottom: 5%;
+  text-align: left;
+}
+.education-col img {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+.education-col h3 {
+  font-weight: 600;
+  margin: 16px 0 15px 0;
+}
+
+/* <!--       Testimonials --> */
+.testimonials {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.testimonials-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  position: relative;
+  background-color: #fff3ff;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+
+.testimonials-col img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.testimonials-col h3 {
+  margin-top: 15px;
+}
+
+.testimonials-col i {
+  color: red;
+}
+/* Action */
+.action {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./pic/banner2.jpg");
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.action h1 {
+  margin-bottom: 40px;
+  font-size: 36px;
+  color: rgb(180, 175, 175);
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #e6e3df;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.footer h4 {
+  margin: 20px 0 25px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer .footer-desc {
+  margin: auto;
+  width: 80%;
+}
+
+.footer .icons i {
+  padding: 18px 0;
+  margin: 0 13px;
+  cursor: pointer;
+  color: aqua;
+}
 /* Responsive tasarım */
 @media (max-width: 700px) {
   .nav-links ul {
@@ -190,5 +325,8 @@ body {
   .row {
     flex-direction: column;
     /* akış yönün aşağıya alır. */
+  }
+  .education-col img {
+    height: 200px;
   }
 }
