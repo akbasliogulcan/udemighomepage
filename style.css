@@ -14,6 +14,10 @@ body {
   font-family: "Poppins", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Banner */
 .banner {
   position: relative;
@@ -288,6 +292,7 @@ body {
   background-color: #e6e3df;
   text-align: center;
   padding: 20px 0;
+  /* top and bottom ,right and left */
   border-radius: 10px;
 }
 
