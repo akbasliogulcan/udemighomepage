@@ -8,7 +8,6 @@
   <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="200" alt="Project GIF" />
 </p>
 
-<img src="pic/bookstore.gif" width="800" />
 
 
 <p align="center">
@@ -17,7 +16,7 @@
 
 <hr>
 
-<h2>📂 Proje Yapısı</h2>
+<h2>📂 Project Design</h2>
 
 <pre>
 📁 my-awesome-project
@@ -26,11 +25,11 @@
 └── README.md
 </pre>
 
-<h2>🎨 Ekran Görüntüsü</h2>
+<h2>🎨 Gift</h2>
 
-<img src="https://via.placeholder.com/800x400.png?text=Project+Screenshot" alt="Screenshot" style="border-radius: 10px; border: 1px solid #ccc; box-shadow: 2px 2px 10px #aaa;" />
+<img src="pic/bookstore.gif" width="800" />
 
-<h2>🛠 Kullanılan Teknolojiler</h2>
+<h2>🛠 Used Technologies</h2>
 
 <ul>
   <li>HTML5</li>
