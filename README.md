@@ -1,5 +1,6 @@
 
 <h1>🎥 Preview</h1>
+<i class="fa-solid fa-star"></i>
 <img src="pic/bookstore.gif" width="800" />
 
 <h2>🔧 Technologies Used</h2>
