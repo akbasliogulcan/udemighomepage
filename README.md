@@ -4,7 +4,7 @@
 
 <h1 align="center">🚀 Udemig Homepage Project</h1>
 
-live ======>>> https://guileless-salmiakki-a79340.netlify.app/
+
 
 
 <p align="center">
